@@ -543,11 +543,11 @@ div.dashboard {
 
 .pane-header, .pane-footer {
   padding: 8px 0px;
-  background-color: #eee;
-  border: solid 1px #f3f3f3;
+  background-color: #000;
+  /*border: solid 1px #f3f3f3;*/
   border-left: none;
   border-right: none;
-  color: #3b3b3b;
+  color: #fff;
 }
 .pane-header {
   border-top: none;
