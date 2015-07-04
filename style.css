@@ -148,6 +148,7 @@ body {
   margin-bottom: 3px;
 }
 #side-panel-content .task-link {
+  color:#000;
   font-size: 1.1em;
   vertical-align: middle;
 }
@@ -504,10 +505,12 @@ pre.console {
 }
 
 #jenkins .task-link {
+    color:#000;
     text-decoration: none;
 }
 
 #jenkins .task-link:hover {
+    color:#000;
     text-decoration: underline;
 }
 
