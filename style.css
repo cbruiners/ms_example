@@ -43,6 +43,10 @@
     font-weight: bold !important;
 }
 
+#right-top-nav .smallfont {
+  content:url(/static/43490c5f/images/refresh.png);
+}
+
 /* General page layout */
 
 html {
