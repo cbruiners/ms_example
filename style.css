@@ -77,11 +77,12 @@ body {
 
 #header .searchbox, #header .login {
   float: right;
-  padding: 6px 11px;
+  padding: 2em 11px;
 }
 
 #breadcrumbBar, #footer-container, .top-sticker-inner {
-  background-color: #f6faf2;
+  background-color: #000;
+  color: #fff;
 }
 
 #side-panel {
