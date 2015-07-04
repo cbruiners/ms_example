@@ -28,27 +28,6 @@
   top:71px;
  }
 
-/* unvisited link */
-a:link {
-    color: #fff;
-}
-
-/* visited link */
-a:visited {
-    color: #fff;
-}
-
-/* mouse over link */
-a:hover {
-    color: #fff;
-}
-
-/* selected link */
-a:active {
-    color: #fff;
-}
-
-
 /* General page layout */
 
 html {
@@ -264,12 +243,12 @@ dt {
 
 a:link {
   text-decoration: underline;
-  color: #204A87;
+  color: #fff;
 }
 
 a:visited {
   text-decoration: underline;
-  color: #5c3566;
+  color: #fff;
 }
 
 a.lowkey:link {
@@ -643,8 +622,8 @@ table.bigtable.pane > tbody > tr > td:last-child {
   font-size: 9px;
 
 }
-#right-top-nav .smallfont{
-  color:#fff;
+#right-top-nav {
+  color:#fff !important;
 }
 
 #foldertab {
