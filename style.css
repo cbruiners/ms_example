@@ -311,8 +311,10 @@ a.tip:hover span {
 .call-to-action {
   display: inline-block;
   padding: 10px;
-  background-color: #cdf0f2;
-  border-left: 4px solid #577baa;
+  /*background-color: #cdf0f2;*/
+  border-left: 4px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .call-to-action a, .call-to-action a:visited {
