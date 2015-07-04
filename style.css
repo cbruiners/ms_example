@@ -28,6 +28,21 @@
   top:71px;
  }
 
+
+
+ #breadcrumbs LI:hover, A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
+  background-color: #fff !important;
+}
+
+#breadcrumbs LI A:link, #breadcrumbs LI A:visited {
+    text-decoration:none;
+    color:#fff !important;
+}
+
+#breadcrumbs LI A:hover, #crumbs LI A:focus {
+    color:#000 !important;
+}
+
 /* General page layout */
 
 html {
