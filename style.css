@@ -28,6 +28,25 @@
   top:71px;
  }
 
+/* unvisited link */
+a:link {
+    color: #fff;
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #fff;
+}
+
+/* selected link */
+a:active {
+    color: #fff;
+}
 
 
 /* General page layout */
