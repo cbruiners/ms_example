@@ -51,11 +51,11 @@
   content:url(/static/43490c5f/images/refresh.png);
 }
 
-.model-link A:link, .model-link A:visited,{
+.model-link{
   color: #000 !important;
 }
 
-. job-status-blue {
+.job-status-blue {
 color: #000 !important;
 }
 
@@ -64,7 +64,7 @@ color: #000 !important;
 }
 
 #col-xs-24 pane-header {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 /* General page layout */
