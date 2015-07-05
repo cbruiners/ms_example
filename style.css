@@ -28,6 +28,10 @@
   top:81;
  }
 
+ #description-link {
+  color: #000 !important;
+ }
+
  #breadcrumbs LI:hover, A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
   background-color: #fff !important;
 }
