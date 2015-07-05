@@ -613,6 +613,12 @@ div.pane-header {
   padding-right: 24px;
 }
 
+div.pane-header a {
+  font-weight: bold;
+  padding-right: 24px;
+  color: #fff !important;
+}
+
 div.pane-header .collapse {
 	float: right;
   margin-left: 3px;
