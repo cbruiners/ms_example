@@ -51,7 +51,19 @@
   content:url(/static/43490c5f/images/refresh.png);
 }
 
-.model-link inside {
+.model-link A:link, .model-link A:visited,{
+  color: #000 !important;
+}
+
+. job-status-blue {
+color: #000 !important;
+}
+
+#main-panel-content {
+  color: #000 !important;
+}
+
+#col-xs-24 pane-header {
   color: #000 !important;
 }
 
