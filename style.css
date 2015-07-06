@@ -25,31 +25,10 @@
  /* CUSTOMISATION */
 
  .top-sticker noedge {
-  top:81;
+  top:71px;
  }
 
- #description-link {
-  color: #000 !important;
- }
 
- #breadcrumbs LI:hover, A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
-  background-color: #fff !important;
-}
-
-#breadcrumbs LI A:link, #breadcrumbs LI A:visited {
-    text-decoration:none;
-    color:#fff !important;
-    font-weight: bold !important;
-}
-
-#breadcrumbs LI A:hover, #crumbs LI A:focus {
-    color:#cddf69 !important;
-    font-weight: bold !important;
-}
-
-#right-top-nav .smallfont {
-  content:url(/static/43490c5f/images/refresh.png);
-}
 
 /* General page layout */
 
@@ -68,7 +47,7 @@ body {
 
 #header {
   background-color: #fff;
-  height: 81px; /*CHANGED*/
+  height: 71px; /*CHANGED*/
 }
 
 #header div {
@@ -87,8 +66,6 @@ body {
 #jenkins-head-icon {
   /*position: absolute;
   bottom: 0px;*/
-  margin-top:5px;
-  margin-bottom:5px;
    height: 66px;
    width: 110px;
 }
@@ -100,12 +77,11 @@ body {
 
 #header .searchbox, #header .login {
   float: right;
-  padding: 2em 11px;
+  padding: 6px 11px;
 }
 
 #breadcrumbBar, #footer-container, .top-sticker-inner {
-  background-color: #000;
-  color: #fff;
+  background-color: #f6faf2;
 }
 
 #side-panel {
@@ -152,7 +128,6 @@ body {
   margin-bottom: 3px;
 }
 #side-panel-content .task-link {
-  color:#000;
   font-size: 1.1em;
   vertical-align: middle;
 }
@@ -267,12 +242,12 @@ dt {
 
 a:link {
   text-decoration: underline;
-  color: #fff;
+  color: #204A87;
 }
 
 a:visited {
   text-decoration: underline;
-  color: #fff;
+  color: #5c3566;
 }
 
 a.lowkey:link {
@@ -320,9 +295,8 @@ a.tip:hover span {
 .call-to-action {
   display: inline-block;
   padding: 10px;
-  /*background-color: #cdf0f2;*/
-  border-left: 4px solid #000;
-  border-top: 1px solid #000;
+  background-color: #cdf0f2;
+  border-left: 4px solid #577baa;
 }
 
 .call-to-action a, .call-to-action a:visited {
@@ -510,12 +484,10 @@ pre.console {
 }
 
 #jenkins .task-link {
-    color:#000;
     text-decoration: none;
 }
 
 #jenkins .task-link:hover {
-    color:#000;
     text-decoration: underline;
 }
 
@@ -548,11 +520,11 @@ div.dashboard {
 
 .pane-header, .pane-footer {
   padding: 8px 0px;
-  background-color: #000;
-  /*border: solid 1px #f3f3f3;*/
+  background-color: #eee;
+  border: solid 1px #f3f3f3;
   border-left: none;
   border-right: none;
-  color: #fff;
+  color: #3b3b3b;
 }
 .pane-header {
   border-top: none;
@@ -645,10 +617,6 @@ table.bigtable.pane > tbody > tr > td:last-child {
 
 .smallfont {
   font-size: 9px;
-
-}
-#right-top-nav {
-  color:#fff !important;
 }
 
 #foldertab {
