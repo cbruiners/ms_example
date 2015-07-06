@@ -118,7 +118,8 @@ body {
 }
 
 #breadcrumbBar, #footer-container, .top-sticker-inner {
-  background-color: #f6faf2;
+  background-color: #000;
+  color: #fff;
 }
 
 #side-panel {
@@ -288,12 +289,12 @@ dt {
 
 a:link {
   text-decoration: underline;
-  color: #204A87;
+  color: #000;
 }
 
 a:visited {
   text-decoration: underline;
-  color: #5c3566;
+  color: #fff;
 }
 
 a.lowkey:link {
@@ -341,8 +342,8 @@ a.tip:hover span {
 .call-to-action {
   display: inline-block;
   padding: 10px;
-  background-color: #cdf0f2;
-  border-left: 4px solid #577baa;
+  border-left: 4px solid #000;
+  border-top: 1px solid #000;
 }
 
 .call-to-action a, .call-to-action a:visited {
@@ -529,10 +530,12 @@ pre.console {
 }
 
 #jenkins .task-link {
+    color:#000;
     text-decoration: none;
 }
 
 #jenkins .task-link:hover {
+    color:#000;
     text-decoration: underline;
 }
 
@@ -560,11 +563,10 @@ pre.console {
 
 .pane-header, .pane-footer {
   padding: 8px 0px;
-  background-color: #eee;
-  border: solid 1px #f3f3f3;
+  background-color: #000;
   border-left: none;
   border-right: none;
-  color: #3b3b3b;
+  color: #fff;
 }
 .pane-header {
   border-top: none;
@@ -606,6 +608,12 @@ table.stripped-odd tr:nth-child(odd) {
 div.pane-header {
   font-weight: bold;
   padding-right: 24px;
+}
+
+div.pane-header a {
+  font-weight: bold;
+  padding-right: 24px;
+  color: #fff !important;
 }
 
 div.pane-header .collapse {
@@ -658,6 +666,11 @@ table.bigtable.pane > tbody > tr > td:last-child {
 .smallfont {
   font-size: 9px;
 }
+
+#right-top-nav {
+  color:#fff !important;
+}
+
 
 #foldertab {
   padding: 4px 0;
