@@ -1673,22 +1673,22 @@ table#legend-table td {
 #jenkins .yui-button button:hover,
 #jenkins .yui-button .hover
 {
-    background-color: #d0d0d0;
-    border: 1px solid #c0c0c0;
+    background-color: #fff;
+    border: 1px solid #000;
 }
 
 #jenkins .yui-button button:active,
 #jenkins .yui-button .active {
-    background-color: #bbb;
-    box-shadow: inset 0px 1px 6px 2px #929292;
-    border: 1px solid #bbb;
+    background-color: #cddf69;
+    box-shadow: inset 0px 1px 6px 2px #000;
+    border: 1px solid #000;
 }
 
 #jenkins .yui-button button[disabled],
 #jenkins .yui-button button[disabled]:hover,
 #jenkins .yui-button button[disabled]:active,
 #jenkins .yui-button .disabled {
-    background-color: #000;
+    background-color: #666;
     color: #fff;
     border: 1px solid #d2d2d2;
 }
