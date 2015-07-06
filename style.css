@@ -51,29 +51,12 @@
   content:url(/static/43490c5f/images/refresh.png);
 }
 
-.model-link{
-  color: #000 !important;
-}
-
-.job-status-blue {
-color: #000 !important;
-}
-
-#main-panel-content {
-  color: #000 !important;
-}
-
-#col-xs-24 pane-header {
-  color: #fff !important;
-}
-
 /* General page layout */
 
 html {
   position: relative;
   min-height: 100%;
 }
-
 
 body {
   margin: 0;
@@ -284,7 +267,7 @@ dt {
 
 a:link {
   text-decoration: underline;
-  color: #000;
+  color: #fff;
 }
 
 a:visited {
@@ -394,7 +377,7 @@ pre {/* see http://users.tkk.fi/tkarvine/pre-wrap-css3-mozilla-opera-ie.html */
 }
 
 pre a {
-    word-wrap: break-word;	
+    word-wrap: break-word;  
 }
 
 pre.console {
@@ -613,14 +596,8 @@ div.pane-header {
   padding-right: 24px;
 }
 
-div.pane-header a {
-  font-weight: bold;
-  padding-right: 24px;
-  color: #fff !important;
-}
-
 div.pane-header .collapse {
-	float: right;
+  float: right;
   margin-left: 3px;
 }
 
@@ -1336,7 +1313,7 @@ DIV.to-be-removed { display: none; }
 
 /* ========================= Yahoo UI style adjustments ========================= */
 .ygtvlabel, .ygtvlabel:link, .ygtvlabel:visited, .ygtvlabel:hover {
-	color: inherit;
+  color: inherit;
 }
 
 DIV.yahooTree td {
@@ -1597,34 +1574,34 @@ table.progress-bar.red td.progress-bar-done {
 
 /* ========================= matrix configuration table ================== */
 table#configuration-matrix {
-	border: 1px #BBBBBB solid;
-	border-collapse: collapse;
+  border: 1px #BBBBBB solid;
+  border-collapse: collapse;
 }
 tr.matrix-row {
-	background: #f0f0f0;
-	font-weight: bold;
+  background: #f0f0f0;
+  font-weight: bold;
 }
 td.matrix-header {
-	border: 1px #BBBBBB solid;
-	padding: 3px;
+  border: 1px #BBBBBB solid;
+  padding: 3px;
 }
 td#matrix-title {
-	padding: 3px;
+  padding: 3px;
 }
 td.matrix-leftcolumn {
-	border: 1px #BBBBBB solid;
-	font-weight: bold;
-	background: #f0f0f0;
-	padding: 3px;
+  border: 1px #BBBBBB solid;
+  font-weight: bold;
+  background: #f0f0f0;
+  padding: 3px;
 }
 td.matrix-cell {
-	border: 1px #BBBBBB solid;
-	text-align: center;
+  border: 1px #BBBBBB solid;
+  text-align: center;
 }
 
 /* ========================= legend.jelly ================== */
 table#legend-table td {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 /* ========================= Button styles ================= */
@@ -1660,10 +1637,10 @@ table#legend-table td {
   border-radius: 1px;
 
   border: 1px solid #cccccc;
-  background-color: #000;
+  background-color: #e0e0e0;
   font-family: Helvetica, Arial, sans-serif;
 
-  color: #fff;
+  color: #505050;
   font-weight: bold;
 }
 
@@ -1689,16 +1666,16 @@ table#legend-table td {
 #jenkins .yui-button button[disabled]:hover,
 #jenkins .yui-button button[disabled]:active,
 #jenkins .yui-button .disabled {
-    background-color: #000;
-    color: #fff;
+    background-color: #e5e5e5;
+    color: #999;
     border: 1px solid #d2d2d2;
 }
 
 /* Color overrides */
 #jenkins .yui-button.primary button {
-    background-color: #cddf69;
-    color: #000;
-    border: 1px solid #000;
+    background-color: #4b758b;
+    color: #eee;
+    border: 1px solid #5788a1;
 }
 
 #jenkins .yui-button.primary button:hover,
