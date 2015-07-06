@@ -23,7 +23,8 @@
  */
 
  /* CUSTOMISATION */
-.top-sticker noedge {
+
+ .top-sticker noedge {
   top:81;
  }
 
@@ -44,10 +45,6 @@
 #breadcrumbs LI A:hover, #crumbs LI A:focus {
     color:#cddf69 !important;
     font-weight: bold !important;
-}
-
-#right-top-nav .smallfont {
-  content:url(/static/43490c5f/images/refresh.png);
 }
 
 .model-link{
@@ -126,11 +123,9 @@ body {
 
 #side-panel {
   z-index: 1;
-  width:320px;
 }
 #main-panel {
   z-index: 0;
-  margin-left: 360px;
 }
 
 #side-panel, #main-panel {
@@ -143,15 +138,15 @@ body {
 }
 
 .fixedGridLayout #side-panel {
+  float:left;
   width: 360px;
   margin-left: 15px;
-
 }
 
 .fixedGridLayout #main-panel {
   padding-left: 370px;
   margin-right: 15px;
-  
+  width: 100%
 }
 
 #side-panel-content, #main-panel-content {
