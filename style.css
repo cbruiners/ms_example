@@ -24,48 +24,6 @@
 
  /* CUSTOMISATION */
 
- .top-sticker noedge {
-  top:81;
- }
-
- #description-link {
-  color: #000 !important;
- }
-
- #breadcrumbs LI:hover, A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
-  background-color: #fff !important;
-}
-
-#breadcrumbs LI A:link, #breadcrumbs LI A:visited {
-    text-decoration:none;
-    color:#fff !important;
-    font-weight: bold !important;
-}
-
-#breadcrumbs LI A:hover, #crumbs LI A:focus {
-    color:#cddf69 !important;
-    font-weight: bold !important;
-}
-
-#right-top-nav .smallfont {
-  content:url(/static/43490c5f/images/refresh.png);
-}
-
-.model-link{
-  color: #000 !important;
-}
-
-.job-status-blue {
-color: #000 !important;
-}
-
-#main-panel-content {
-  color: #000 !important;
-}
-
-#col-xs-24 pane-header {
-  color: #fff !important;
-}
 
 /* General page layout */
 
