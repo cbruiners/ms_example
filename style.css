@@ -25,10 +25,47 @@
  /* CUSTOMISATION */
 
  .top-sticker noedge {
-  top:71px;
+  top:81;
  }
 
+ #description-link {
+  color: #000 !important;
+ }
 
+ #breadcrumbs LI:hover, A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
+  background-color: #fff !important;
+}
+
+#breadcrumbs LI A:link, #breadcrumbs LI A:visited {
+    text-decoration:none;
+    color:#fff !important;
+    font-weight: bold !important;
+}
+
+#breadcrumbs LI A:hover, #crumbs LI A:focus {
+    color:#cddf69 !important;
+    font-weight: bold !important;
+}
+
+#right-top-nav .smallfont {
+  content:url(/static/43490c5f/images/refresh.png);
+}
+
+.model-link{
+  color: #000 !important;
+}
+
+.job-status-blue {
+color: #000 !important;
+}
+
+#main-panel-content {
+  color: #000 !important;
+}
+
+#col-xs-24 pane-header {
+  color: #fff !important;
+}
 
 /* General page layout */
 
@@ -36,6 +73,7 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 
 body {
   margin: 0;
@@ -47,7 +85,7 @@ body {
 
 #header {
   background-color: #fff;
-  height: 71px; /*CHANGED*/
+  height: 81px; /*CHANGED*/
 }
 
 #header div {
@@ -66,6 +104,8 @@ body {
 #jenkins-head-icon {
   /*position: absolute;
   bottom: 0px;*/
+  margin-top:5px;
+  margin-bottom:5px;
    height: 66px;
    width: 110px;
 }
@@ -77,11 +117,12 @@ body {
 
 #header .searchbox, #header .login {
   float: right;
-  padding: 6px 11px;
+  padding: 2em 11px;
 }
 
 #breadcrumbBar, #footer-container, .top-sticker-inner {
-  background-color: #f6faf2;
+  background-color: #000;
+  color: #fff;
 }
 
 #side-panel {
@@ -128,6 +169,7 @@ body {
   margin-bottom: 3px;
 }
 #side-panel-content .task-link {
+  color:#000;
   font-size: 1.1em;
   vertical-align: middle;
 }
@@ -242,12 +284,12 @@ dt {
 
 a:link {
   text-decoration: underline;
-  color: #204A87;
+  color: #000;
 }
 
 a:visited {
   text-decoration: underline;
-  color: #5c3566;
+  color: #fff;
 }
 
 a.lowkey:link {
@@ -295,8 +337,9 @@ a.tip:hover span {
 .call-to-action {
   display: inline-block;
   padding: 10px;
-  background-color: #cdf0f2;
-  border-left: 4px solid #577baa;
+  /*background-color: #cdf0f2;*/
+  border-left: 4px solid #000;
+  border-top: 1px solid #000;
 }
 
 .call-to-action a, .call-to-action a:visited {
@@ -484,10 +527,12 @@ pre.console {
 }
 
 #jenkins .task-link {
+    color:#000;
     text-decoration: none;
 }
 
 #jenkins .task-link:hover {
+    color:#000;
     text-decoration: underline;
 }
 
@@ -520,11 +565,11 @@ div.dashboard {
 
 .pane-header, .pane-footer {
   padding: 8px 0px;
-  background-color: #eee;
-  border: solid 1px #f3f3f3;
+  background-color: #000;
+  /*border: solid 1px #f3f3f3;*/
   border-left: none;
   border-right: none;
-  color: #3b3b3b;
+  color: #fff;
 }
 .pane-header {
   border-top: none;
@@ -566,6 +611,12 @@ table.stripped-odd tr:nth-child(odd) {
 div.pane-header {
   font-weight: bold;
   padding-right: 24px;
+}
+
+div.pane-header a {
+  font-weight: bold;
+  padding-right: 24px;
+  color: #fff !important;
 }
 
 div.pane-header .collapse {
@@ -617,6 +668,10 @@ table.bigtable.pane > tbody > tr > td:last-child {
 
 .smallfont {
   font-size: 9px;
+
+}
+#right-top-nav {
+  color:#fff !important;
 }
 
 #foldertab {
@@ -1605,10 +1660,10 @@ table#legend-table td {
   border-radius: 1px;
 
   border: 1px solid #cccccc;
-  background-color: #e0e0e0;
+  background-color: #000;
   font-family: Helvetica, Arial, sans-serif;
 
-  color: #505050;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -1634,16 +1689,16 @@ table#legend-table td {
 #jenkins .yui-button button[disabled]:hover,
 #jenkins .yui-button button[disabled]:active,
 #jenkins .yui-button .disabled {
-    background-color: #e5e5e5;
-    color: #999;
+    background-color: #000;
+    color: #fff;
     border: 1px solid #d2d2d2;
 }
 
 /* Color overrides */
 #jenkins .yui-button.primary button {
-    background-color: #4b758b;
-    color: #eee;
-    border: 1px solid #5788a1;
+    background-color: #cddf69;
+    color: #000;
+    border: 1px solid #000;
 }
 
 #jenkins .yui-button.primary button:hover,
