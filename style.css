@@ -178,7 +178,7 @@ body {
 
 footer {
   padding: 10px 0;
-  background-color: #f6faf2;
+  background-color: #000;
   border-top: 1px solid #d3d7cf;
   width: 100%;
   position: absolute;
@@ -1658,10 +1658,10 @@ table#legend-table td {
   border-radius: 1px;
 
   border: 1px solid #cccccc;
-  background-color: #e0e0e0;
+  background-color: #000;
   font-family: Helvetica, Arial, sans-serif;
 
-  color: #505050;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -1687,16 +1687,16 @@ table#legend-table td {
 #jenkins .yui-button button[disabled]:hover,
 #jenkins .yui-button button[disabled]:active,
 #jenkins .yui-button .disabled {
-    background-color: #e5e5e5;
-    color: #999;
+    background-color: #000;
+    color: #fff;
     border: 1px solid #d2d2d2;
 }
 
 /* Color overrides */
 #jenkins .yui-button.primary button {
-    background-color: #4b758b;
-    color: #eee;
-    border: 1px solid #5788a1;
+    background-color: #cddf69;
+    color: #000;
+    border: 1px solid #000;
 }
 
 #jenkins .yui-button.primary button:hover,
