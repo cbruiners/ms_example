@@ -85,10 +85,12 @@ body {
 
 #side-panel {
   z-index: 1;
-  width:200px;
+  width:20%;
 }
 #main-panel {
   z-index: 0;
+  width:75%;
+  float:left;
 }
 
 #side-panel, #main-panel {
