@@ -127,6 +127,7 @@ body {
 }
 #main-panel {
   z-index: 0;
+  margin-left: 360px;
 }
 
 #side-panel, #main-panel {
